@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lima's Business</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #0f0f0f;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #5b21b6, #2563eb);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .product {
+      background: #1f2937;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .product h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .product p {
+      margin-bottom: 1rem;
+    }
+
+    .price {
+      color: #22c55e;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .contact {
+      background-color: #111827;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .contact h2 {
+      margin-bottom: 1rem;
+    }
+
+    .contact a {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #000;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lima's Business</h1>
+    <p>Os melhores acessórios eletrônicos ao teu alcance</p>
+  </header>
+
+  <section class="section">
+    <h2 style="text-align:center; margin-bottom: 2rem;">Produtos em Destaque</h2>
+    <div class="products">
+      <div class="product">
+        <h2>Microfone de Lapela K9 (2 em 1)</h2>
+        <p>Compatível com iPhone e Android Tipo C.</p>
+        <p class="price">12.500 Kz</p>
+      </div>
+      <div class="product">
+        <h2>Adaptador Wi-Fi (Antena)</h2>
+        <p>Melhore sua conexão com alta performance.</p>
+        <p class="price">6.500 Kz</p>
+      </div>
+      <div class="product">
+        <h2>Adaptador Bluetooth</h2>
+        <p>Conecte dispositivos sem fio com facilidade.</p>
+        <p class="price">6.500 Kz</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Fale Connosco</h2>
+    <p>📞 934 670 764 | 922 991 973</p>
+    <a href="https://wa.me/244934670764" target="_blank">Enviar mensagem via WhatsApp</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Lima's Business. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
